@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomNumberEdittext">
+        <attr name="maxChar" format="integer"/>
+        <attr name="paddingLeftRightChar" format="dimension"/>
+        <attr name="strokeWidthChar" format="dimension"/>
+    </declare-styleable>
+</resources>
