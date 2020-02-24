@@ -1,50 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="44dp"
-        />
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+    />
 
-    <com.example.cusomedittext.CustomNumberEdittext
-        android:id="@+id/edt"
-        android:layout_width="match_parent"
-        android:layout_height="44dp"
-        android:maxLines="1"
-        android:inputType="number"
-        android:textSize="25dp"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
-        android:background="@color/transparent"
-        app:maxChar="6"
-        app:paddingLeftRightChar="12dp"
-        app:strokeWidthChar="1.5dp"
-        />
+    <com.example.democustomnumberedittext.CustomNumberEdittext
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textSize="25dp"
+            android:paddingLeft="27dp"
+            android:paddingRight="27dp"
+            android:background="@color/transparent"
+            app:maxChar="8"
+            app:paddingLeftRightChar="12dp"
+            app:strokeWidthChar="1.5dp"
+    />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="44dp"
-        />
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+    />
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginBottom="20dp"
-        android:text="button"/>
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="button"/>
 
-<!--    <Button-->
-<!--        android:id="@+id/btn_next"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="50dp"-->
-<!--        android:text="next"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btn_next"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:text="next"/>-->
 
 </LinearLayout>
