@@ -40,7 +40,6 @@ class CustomNumberEdittext : EditText {
     }
 
     override fun onDraw(canvas: Canvas?) {
-        super.onDraw(canvas)
         var shapeLeft = paddingLeft.toFloat()
         val shapeTop = paddingTop.toFloat()
         val shapeWidth = getCharacterWidth() + mPaddingLeftRightChar * 2
